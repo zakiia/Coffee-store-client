@@ -1,7 +1,7 @@
 import { useLoaderData } from "react-router-dom";
 import "./App.css";
-import CoffeeCard from "./CoffeeCard";
 import { useState } from "react";
+import CoffeeCard from "./Component/CoffeeCard";
 
 function App() {
   const loadedcoffees = useLoaderData();
